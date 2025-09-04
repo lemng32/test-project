@@ -92,8 +92,8 @@ const App = () => {
         x: maxX,
         y: maxY,
         center: {
-          x: (maxX - minX) / 2,
-          y: (maxY - minY) / 2
+          x: minX + (maxX - minX) / 2,
+          y: minY + (maxY - minY) / 2
         }
       })
     })
