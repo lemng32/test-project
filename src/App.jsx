@@ -27,6 +27,7 @@ const App = () => {
   const renderImage = () => {
     if (imageUrl) {
       const ctx = getContext() 
+      setCoordinates([])
       const img = new Image()
 
       img.addEventListener("load", () => {
